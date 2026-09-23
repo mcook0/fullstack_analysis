@@ -64,6 +64,8 @@ adventureworks-fullstack-pipeline/
 │   └── fullstack_analysis.pbix
 └── README.md
 
+
+
 How to view
 
 File	How to open
@@ -71,3 +73,12 @@ fullstack_project.sql	MySQL Workbench (free) — run against an adventureworks s
 fullstack_analysis.pbix	Power BI Desktop (free) — powerbi.microsoft.com/desktop
 
 Note: the .pbix file connects to a local MySQL database. To reconnect, point the data source to your MySQL instance running the adventureworks schema, or re-run fullstack_project.sql to recreate the database from the raw CSVs.
+
+
+<img width="823" height="506" alt="image" src="https://github.com/user-attachments/assets/c01e4aeb-ab7d-4ade-95b2-9aa8b5ab297a" />
+
+<img width="1007" height="473" alt="image" src="https://github.com/user-attachments/assets/fa6bb314-2884-4faa-94f7-393572cc2f12" />
+
+
+
+<img width="995" height="490" alt="image" src="https://github.com/user-attachments/assets/37ff4dfd-4cda-4ee6-8ba8-224b24e8af4a" />
