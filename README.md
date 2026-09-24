@@ -1,6 +1,6 @@
 AdventureWorks Full-Stack Sales Pipeline  |  MySQL · SQL · Power BI · Data Modeling · Business Intelligence
 
-Identified territory-level performance gaps across 4,000 reseller orders in 10 global markets by building a full SQL pipeline — from raw CSV to cleaned database view — and presenting findings in an interactive 3-page Power BI dashboard.
+Identified territory-level performance gaps across 4,000 reseller orders in 10 global markets by building a full SQL pipeline - from raw CSV to cleaned database view — and presenting findings in an interactive 3-page Power BI dashboard.
 
 Executive Summary
 Using MySQL and Power BI, I analyzed reseller sales data from AdventureWorks across 10 territories, 632 resellers, and 17 salespersons. I built a full data pipeline — loading raw CSVs into a MySQL database, cleaning and transforming the data in SQL, creating an analytical view, and connecting Power BI directly to that view for live reporting.
@@ -8,11 +8,11 @@ Using MySQL and Power BI, I analyzed reseller sales data from AdventureWorks acr
 After identifying that Australia and Germany are significantly underperforming relative to their peer territories, and that the performance gap is driven by reseller network coverage rather than salesperson quality, I recommend the sales leadership team focuses on three adjustments:
 
 - Expand the reseller network in Australia and Germany to bring coverage in line with higher-performing markets
-- Investigate France and United Kingdom specifically — both have adequate reseller counts but disproportionately low order volumes
+- Investigate France and United Kingdom specifically - both have adequate reseller counts but disproportionately low order volumes
 - Study and replicate Tsvi Reiter's engagement model across the wider salesperson team
 
 Business problem
-AdventureWorks operates a global reseller sales network across North America, Europe, and the Pacific. Leadership needed to understand which territories were underperforming and whether the gap was caused by reseller coverage, salesperson performance, or product-category fit — before making headcount or expansion decisions.
+AdventureWorks operates a global reseller sales network across North America, Europe, and the Pacific. Leadership needed to understand which territories were underperforming and whether the gap was caused by reseller coverage, salesperson performance, or product-category fit - before making headcount or expansion decisions.
 
 Which sales territories are underperforming, and is the gap driven by who we have selling — or who we have selling through?
 
@@ -70,8 +70,8 @@ adventureworks-fullstack-pipeline/
 How to view
 
 File	How to open
-fullstack_project.sql	MySQL Workbench (free) — run against an adventureworks schema
-fullstack_analysis.pbix	Power BI Desktop (free) — powerbi.microsoft.com/desktop
+fullstack_project.sql	MySQL Workbench (free) - run against an adventureworks schema
+fullstack_analysis.pbix	Power BI Desktop (free) - powerbi.microsoft.com/desktop
 
 Note: the .pbix file connects to a local MySQL database. To reconnect, point the data source to your MySQL instance running the adventureworks schema, or re-run fullstack_project.sql to recreate the database from the raw CSVs.
 
