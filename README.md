@@ -28,6 +28,7 @@ MySQL + SQL: data inspection, null checks, duplicate detection, date parsing, st
 Power BI: live database connection, DAX measures (DISTINCTCOUNT, DIVIDE), data modeling, tile slicers, cross-filtering, scatter plots, matrix visuals, 3-page dashboard
 
 Results & Business Recommendation
+
 Building a connected SQL-to-Power BI pipeline gives sales leadership full visibility into territory performance — overall and by category, salesperson, and reseller coverage — without manual reporting. Stakeholders can filter by year, sales group, or product category and see every visual update simultaneously.
 
 This analysis showed that Australia and Germany together account for fewer than 230 total orders — compared to 717 for Southwest alone — and that the gap correlates directly with reseller network size, not salesperson headcount. France and United Kingdom present a different pattern: adequate reseller coverage but disproportionately low order conversion, pointing to a product-fit or sales engagement issue rather than a structural one.
